@@ -1,0 +1,6 @@
+/* Stats bar */
+/* ===== STATS ===== */
+.stats{background:linear-gradient(135deg,#2D0E6E,#4A1FA0 60%,#2D0E6E 100%);padding:50px 24px}
+.stats-in{max-width:880px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center}
+.stat-n{font-family:'Montserrat',sans-serif;font-size:52px;font-weight:900;color:var(--gold);line-height:1}
+.stat-l{font-size:12.5px;color:rgba(255,255,255,.65);margin-top:5px;letter-spacing:.03em}

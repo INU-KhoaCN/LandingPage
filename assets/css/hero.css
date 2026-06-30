@@ -1,0 +1,31 @@
+/* Hero section */
+/* ===== HERO ===== */
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;padding:90px 24px 60px}
+.hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse at 25% 45%,rgba(74,31,160,.22) 0%,transparent 52%),radial-gradient(ellipse at 75% 20%,rgba(45,14,110,.28) 0%,transparent 50%),radial-gradient(ellipse at 55% 85%,rgba(123,79,207,.12) 0%,transparent 40%),linear-gradient(140deg,#060115 0%,#0E0228 55%,#060115 100%)}
+.orb{position:absolute;border-radius:50%;border:1px solid rgba(240,180,41,.07);animation:orbPulse var(--d,9s) ease-in-out infinite}
+@keyframes orbPulse{0%,100%{transform:scale(1);opacity:.15}
+50%{transform:scale(1.09);opacity:.45}
+}
+.hero-inner{position:relative;z-index:1;text-align:center;max-width:920px}
+.hero-logo-wrap{display:flex;justify-content:center;margin-bottom:22px}
+.hero-logo{width:90px;height:90px;object-fit:contain;filter:drop-shadow(0 0 18px rgba(240,180,41,.4))}
+.hero-badge{font-size:11px;letter-spacing:.3em;color:var(--gold);text-transform:uppercase;font-weight:600;margin-bottom:18px;opacity:.9}
+.hero-h1{font-family:'Montserrat',sans-serif;line-height:.88;margin-bottom:6px}
+.hero-h1 .l1{display:block;font-size:clamp(58px,11vw,108px);font-weight:900;background:linear-gradient(135deg,#fff 0%,#D4C8F0 60%,#B8A0FF 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero-h1 .l2{display:block;font-size:clamp(58px,11vw,108px);font-weight:900;color:var(--gold)}
+.hero-slogan{font-size:clamp(13px,2vw,17px);color:var(--gold);font-weight:600;letter-spacing:.06em;margin:22px 0 10px}
+.hero-desc{font-size:clamp(13px,1.8vw,15.5px);color:var(--t-muted);max-width:640px;margin:0 auto 36px;line-height:1.75}
+.hero-desc strong{color:var(--t-light);font-weight:600}
+.pillars{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:40px}
+.pillar{display:flex;flex-direction:column;align-items:center;gap:7px;padding:13px 14px;border:1px solid var(--border-b);border-radius:10px;background:rgba(28,5,72,.4);backdrop-filter:blur(8px);font-size:10.5px;color:var(--t-muted);text-align:center;min-width:90px;max-width:100px;transition:all .2s;cursor:default}
+.pillar:hover{border-color:var(--gold);color:var(--t-light);transform:translateY(-3px)}
+.pillar-ico{font-size:22px}
+.ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold-l));color:#060115;padding:14px 36px;border-radius:8px;font-size:15px;font-weight:700;text-decoration:none;display:inline-block;transition:transform .2s,box-shadow .2s}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(240,180,41,.28)}
+.btn-ghost{background:transparent;color:var(--white);padding:14px 36px;border-radius:8px;font-size:15px;font-weight:600;text-decoration:none;border:2px solid var(--p-light);display:inline-block;transition:all .2s}
+.btn-ghost:hover{border-color:var(--t-light);background:rgba(123,79,207,.12)}
+.scroll-down{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);color:var(--t-dim);animation:scrollBounce 2s ease-in-out infinite;font-size:20px}
+@keyframes scrollBounce{0%,100%{transform:translateX(-50%) translateY(0)}
+50%{transform:translateX(-50%) translateY(9px)}
+}

@@ -1,0 +1,15 @@
+/* Main stylesheet – Khoa Công Nghệ Landing Page */
+@import url('variables.css');
+@import url('base.css');
+@import url('nav.css');
+@import url('hero.css');
+@import url('stats.css');
+@import url('sections.css');
+@import url('vision.css');
+@import url('programs.css');
+@import url('methods.css');
+@import url('admission.css');
+@import url('careers.css');
+@import url('why.css');
+@import url('footer.css');
+@import url('responsive.css');
