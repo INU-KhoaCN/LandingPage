@@ -1,14 +1,111 @@
-/* Shared section styles */
-/* ===== SECTION BASE ===== */
-.sec{padding:72px 24px}
-.sec-in{max-width:1100px;margin:0 auto}
-.lbl{font-size:11px;letter-spacing:.25em;color:var(--p-mid);text-transform:uppercase;font-weight:700;margin-bottom:7px}
-.lbl.dk{color:var(--gold);opacity:.8}
-.sec-h{font-family:'Montserrat',sans-serif;font-size:clamp(26px,4.5vw,40px);font-weight:800;color:var(--white);margin-bottom:14px;line-height:1.18}
-.sec-h span{color:var(--gold)}
-.sec-h.lt{color:var(--ls-title)}
-.sec-h.lt span{color:var(--p-mid)}
-.sec-p{font-size:14.5px;color:var(--t-muted);max-width:660px;line-height:1.78;margin-bottom:48px}
-.sec-p.lt{color:var(--ls-body)}
-.divider{width:52px;height:3px;background:linear-gradient(90deg,var(--gold),transparent);margin-bottom:20px}
-.divider.p{background:linear-gradient(90deg,var(--p-mid),transparent)}
+/* ========================================================================== */
+/*                              SHARED SECTION STYLES                         */
+/* ========================================================================== */
+
+.sec {
+    padding: 72px 24px;
+}
+
+.sec-in {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                               Section Label                                */
+/* -------------------------------------------------------------------------- */
+
+.lbl {
+    margin-bottom: 7px;
+
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+
+    color: var(--p-mid);
+}
+
+.lbl.dk {
+    color: var(--gold);
+    opacity: 0.8;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                               Section Title                                */
+/* -------------------------------------------------------------------------- */
+
+.sec-h {
+    margin-bottom: 14px;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(26px, 4.5vw, 40px);
+    font-weight: 800;
+    line-height: 1.18;
+
+    color: var(--white);
+}
+
+.sec-h span {
+    color: var(--gold);
+}
+
+/* Light Theme */
+
+.sec-h.lt {
+    color: var(--ls-title);
+}
+
+.sec-h.lt span {
+    color: var(--p-mid);
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                             Section Description                            */
+/* -------------------------------------------------------------------------- */
+
+.sec-p {
+    max-width: 660px;
+    margin-bottom: 48px;
+
+    font-size: 14.5px;
+    line-height: 1.78;
+
+    color: var(--t-muted);
+}
+
+/* Light Theme */
+
+.sec-p.lt {
+    color: var(--ls-body);
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                               Section Divider                              */
+/* -------------------------------------------------------------------------- */
+
+.divider {
+    width: 52px;
+    height: 3px;
+    margin-bottom: 20px;
+
+    background: linear-gradient(
+        90deg,
+        var(--gold),
+        transparent
+    );
+}
+
+/* Purple Variant */
+
+.divider.p {
+    background: linear-gradient(
+        90deg,
+        var(--p-mid),
+        transparent
+    );
+}

@@ -1,8 +1,45 @@
-/* Teaching methods */
-/* ===== METHODS ===== */
-.method-sec{background:linear-gradient(160deg,var(--bg0),var(--bg1) 50%,var(--bg0))}
-.methods-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:44px}
-.method-card{text-align:center;padding:28px 14px;border:1px solid var(--border);border-radius:13px;background:var(--card);transition:all .22s}
-.method-card:hover{border-color:var(--p-light);transform:translateY(-4px)}
-.method-ico{font-size:34px;margin-bottom:12px}
-.method-n{font-size:12px;font-weight:600;color:var(--t-light);line-height:1.5}
+/* ===== TEACHING METHODS ===== */
+
+.method-sec {
+    background: linear-gradient(
+        160deg,
+        var(--bg0),
+        var(--bg1) 50%,
+        var(--bg0)
+    );
+}
+
+.methods-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    margin-top: 44px;
+}
+
+.method-card {
+    padding: 28px 14px;
+    text-align: center;
+
+    border: 1px solid var(--border);
+    border-radius: 13px;
+    background: var(--card);
+
+    transition: all 0.22s;
+}
+
+.method-card:hover {
+    border-color: var(--p-light);
+    transform: translateY(-4px);
+}
+
+.method-ico {
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+.method-n {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--t-light);
+}
