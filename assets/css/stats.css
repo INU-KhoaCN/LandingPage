@@ -1,0 +1,48 @@
+/* ========================================================================== */
+/*                                 STATS SECTION                              */
+/* ========================================================================== */
+
+.stats {
+    padding: 50px 24px;
+
+    background: linear-gradient(
+        135deg,
+        #2D0E6E 0%,
+        #4A1FA0 60%,
+        #2D0E6E 100%
+    );
+}
+
+.stats-in {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+
+    max-width: 880px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                Statistic Item                              */
+/* -------------------------------------------------------------------------- */
+
+.stat-n {
+    font-family: "Montserrat", sans-serif;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1;
+
+    color: var(--gold);
+}
+
+.stat-l {
+    margin-top: 5px;
+
+    font-size: 12.5px;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.65);
+}
